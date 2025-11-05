@@ -1,0 +1,63 @@
+<html>
+<head>
+    <style>
+        #headerdiv {
+            background-color: lightgray;
+            text-align: center;
+            width: 800px;
+            margin: 0 auto
+        }
+
+        #maindiv {
+            background-color: lightgray;
+            text-align: center;
+            width: 500ox;
+            float: left;
+        }
+
+        #rightdiv {
+            background-color: lightblue;
+            text-align: center;
+            width: 500px;
+            float: right;
+        }
+
+        #content {
+            width: 800px; /* adjust as needed*/
+            float: right;
+        }
+
+        #innercontent {
+            background-color: blue;
+            display: flex;
+        }
+
+        #footerdiv {
+            background-color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id = "headerdiv">
+            <h1> This is the start of the web page </h1>
+        </div>
+
+        <div id="innercontent">
+            <div class = "maindiv">
+                <p> This is more text...just to have a filler, but we can also include images!</p>
+                <img src="rocket.jpg" width=300 height="200">
+            </div>
+
+            <div class="rightdiv"> 
+                <p> We can also place text to the right!</p>
+        </div>
+        </div>
+
+        <div id="footerdiv">
+            The footer!
+        </div>
+    </div>
+</body>
+</html>
