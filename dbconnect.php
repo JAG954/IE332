@@ -7,7 +7,7 @@ session_start();
 
 $servername = "mydb.itap.purdue.edu";
 $dbuser     = "ghosh107";
-$dbpass     = "PlasticPen03!!";
+$dbpass     = "";
 $dbname     = "ghosh107";
 
 $conn = new mysqli($servername, $dbuser, $dbpass, $dbname);
