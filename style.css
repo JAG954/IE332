@@ -1,0 +1,86 @@
+/* Reset margins and ensure full-height layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #f8f9fa;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #000;
+  color: #DDB945;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+.footer a { color: #DDB945; }
+.footer a:hover { color: #98700D; }
+
+/* Card enhancements */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.team-photo {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Purdue-themed navbar */
+.navbar-a3 {
+  background-color: #000;
+}
+
+.navbar-a3 .navbar-brand,
+.navbar-a3 .nav-link { color: #DDB945; }
+
+.navbar-a3 .nav-link:hover,
+.navbar-a3 .nav-link:focus { color: #98700D; }
+
+.navbar-a3 .navbar-toggler { border-color: #DDB945; }
+.navbar-a3 .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23DDB945' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.logo-img { height: 40px; }
+
+/* Login card sizing */
+.login .card { max-width: 420px; margin: 0 auto; }
+
+/* Alert bar styling and body offset */
+#featureAlert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  z-index: 1050;
+  margin: 0;
+  border-radius: 0;
+  padding: 0 1rem;
+  align-items: center;
+  display: none;
+}
+
+body.alert-active { padding-top: 56px; }
+
+#featureAlert .bi { width: 20px; height: 20px; }
+#featureAlert p { margin: 0; font-size: 0.95rem; }
+
+.navbar-a3 .btn-logout {
+  padding: 0.25rem 0.75rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
