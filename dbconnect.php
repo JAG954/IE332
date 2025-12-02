@@ -6,9 +6,9 @@ ini_set('error_log', __DIR__ . '/php_error.log');
 session_start();
 
 $servername = "mydb.itap.purdue.edu";
-$dbuser     = "ghosh107";
-$dbpass     = "";
-$dbname     = "ghosh107";
+$dbuser     = "g1151922";
+$dbpass     = "j8K2NkYw4x3X";
+$dbname     = "g1151922";
 
 $conn = new mysqli($servername, $dbuser, $dbpass, $dbname);
 
